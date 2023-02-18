@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Counter from "./Counter";
+import Hello from "./Hello";
 
 import "./index.scss";
 
@@ -9,6 +10,7 @@ const App = () => (
     <div>Name: remote</div>
     <div>Framework: react</div>
     <Counter/>
+    <Hello/>
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
