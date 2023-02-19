@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import Counter from 'remote/Counter'
-import Hello from 'remote/Hello'
 import "./index.scss";
 
 const App = () => (
@@ -9,7 +8,6 @@ const App = () => (
     <div>Name: host</div>
     <div>Framework: react</div>
       <Counter/>
-      <Hello/>
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));

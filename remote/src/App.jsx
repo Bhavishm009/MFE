@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import Counter from "./Counter";
 import Hello from "./Hello";
-
+import Compute from 'host/Compute'
 import "./index.scss";
 
 const App = () => (
@@ -11,6 +11,8 @@ const App = () => (
     <div>Framework: react</div>
     <Counter/>
     <Hello/>
+    <Compute/>
+   
   </div>
 );
 ReactDOM.render(<App />, document.getElementById("app"));
